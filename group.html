@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Webpage</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 10px;
+            padding: 20px;
+            background-color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .item {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .item-1, .item-2, .item-11, .item-12, .item-49 {
+            grid-column: span 8;
+        }
+
+        .item-1 {
+            font-size: 60px;
+            font-family: 'Segoe UI Black';
+            color: black;
+        }
+
+        .item-2, .item-49 {
+            font-size: 40px;
+            font-family: 'Segoe UI Black';
+        }
+
+        .item-11, .item-12 {
+            font-size: 30px;
+            font-family: 'Segoe UI Black';
+        }
+
+        .item-22, .item-23, .item-36, .item-37 {
+            grid-column: span 4;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 100%;
+            align-items: center;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        .container h4 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="item item-1">TITLE: Men Clothing Store</div>
+    <div class="item item-2">COLLEGE OF COMPUTING INFORMATICS AND MATHEMATICS</div>
+    <div class="item item-11">INTRODUCTION TO WEB CONTENT DEVELOPMENT: IML254</div>
+    <div class="item item-12">GROUP: KCDIM1444B</div>
+
+    <div class="item item-22">
+        <div class="card">
+            <img src="image/ammar.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>MUHAMMAD AMMAR BIN KHAMISAN</b></h4>
+                <p>2022895812</p>
+            </div>
+        </div>
+    </div>
+    <div class="item item-23">
+        <div class="card">
+            <img src="image/anep.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>MUHAMMAD HANIF AIMAN BIN KAMARUZAMAN</b></h4>
+                <p>2022871792</p>
+            </div>
+        </div>
+    </div>
+    <div class="item item-36">
+        <div class="card">
+            <img src="image/danish1.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>JOHAN ISKANDAR BIN AHMAD TAMIMI</b></h4>
+                <p>2022610854</p>
+            </div>
+        </div>
+    </div>
+    <div class="item item-37">
+        <div class="card">
+            <img src="image/+johan.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>MUHAMMAD DANISH ALFIAN BIN MOHD ZULLKIFLI</b></h4>
+                <p>2022625348</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item-49">SUBMISSION DATE: 25 JUN 2024</div>
+</body>
+</html>
